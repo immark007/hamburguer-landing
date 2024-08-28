@@ -1,0 +1,26 @@
+.main{
+    width: 100%;
+    display: flex;
+    padding: 30px 5%;
+    justify-content: space-between;
+
+    & .main-title{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        gap: 20px;
+        justify-content: center;
+
+        & h1{
+            font-size: 60px;
+            color: var(--color-orange);
+        }
+    }
+
+    & .main-image{
+        & .image-main{
+            width: 600px;
+            height: auto;
+        }
+    }
+}
