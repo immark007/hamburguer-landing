@@ -1,5 +1,14 @@
 .header{
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease-in-out;
+
+    &.scrolled {
+        box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
     & .navigation{
         padding: 15px 7%;
         display: flex;
@@ -7,7 +16,7 @@
         align-items: center;
 
         & .logo{
-            width: 30px;
+            font-size: 40px;
             display: flex;
             color: var(--color-orange);
         }
