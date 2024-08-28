@@ -1,0 +1,9 @@
+:root{
+  --color-orange: #f4ab1b;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

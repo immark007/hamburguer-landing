@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    & .navigation{
+        padding: 15px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .logo{
+            width: 30px;
+            display: flex;
+            color: var(--color-orange);
+        }
+
+
+        & ul{
+            display: flex;
+            list-style: none;
+
+
+            & li{
+                display: flex;
+                margin-left: 20px;
+
+                & a{
+                    text-decoration: none;
+                    transition: 0.1s;
+                    color: #1d1d1d;
+                }
+
+                & a:hover{
+                    opacity: 2;
+                    border-bottom: 1px solid var(--color-orange);
+                    color: var(--color-orange);
+                }
+            }
+        }
+
+
+    }
+}
+
